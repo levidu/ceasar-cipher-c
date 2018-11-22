@@ -17,9 +17,10 @@ void decryp(int);
 
 int main(int argc, char *argv[]) {
     
-    
-    //SECRET MESSAGE
+   //Example of an 'e' with a key entered 2
+   //SECRET MESSAGE
    //UGETGV OGUUCIG
+    
     int key = atoi(argv[1]);
 //
     char func = *argv[2];
@@ -37,6 +38,18 @@ int main(int argc, char *argv[]) {
     return 0;
 }
 
+/*
+ * Function:  encrypt 
+ * --------------------
+ * computes an encrpytion for the message entered
+ *
+ *
+ *  k: key, if the user provides a key of 2, all letters are shifted down the alphabet by 2, 
+ *  so that A becomes C, D becomes F, and so forth
+ *
+ *  returns: the encrypted letter of each character
+ *
+ */
 void encryp(int k) {
     char message[100];
     int key = k;
@@ -64,6 +77,18 @@ void encryp(int k) {
 
 
 }
+
+/*
+ * Function:  decryp 
+ * --------------------
+ * computes a decryption for the message entered
+ *
+ *  k: key, if the user provides a key of 2, all letters are shifted down the alphabet by 2, 
+ *  so that A becomes C, D becomes F, and so forth
+ *
+ *  returns: the decryted letter of each character
+ *
+ */
 
 void decryp(int k) {
     char message[100];
