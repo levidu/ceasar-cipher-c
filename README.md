@@ -8,12 +8,8 @@ The C application will return other asiic character. This is okay and powerful.
 
 So, I thinking of making certain changes that would only return alphabetic characters. A-Z
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
 
-int main(int argc, char *argv[]) {
+    int main(int argc, char *argv[]) {
     
     char alpha[30] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" ;
     
@@ -41,4 +37,4 @@ int main(int argc, char *argv[]) {
     }
     
     return 0;
-}
+    }
