@@ -57,7 +57,7 @@ void encryp(int k) {
 
     printf("Enter the message to encrypt: ");
     fgets(message, 100, stdin);
-
+// The functions in the README should come here. Right now the program is reading the whole asiic.
     int count=0;
     while(isupper(message[count]) || isblank(message[count])) {
         if(isblank(message[count])) {
