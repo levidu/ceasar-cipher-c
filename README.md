@@ -5,8 +5,7 @@ You can assume that all messages are uppercase and you will not be given lowerca
 letters, punctuation or special characters (except space characters).
 
 The C application will return other asiic character. This is okay and powerful. 
-
-So, I thinking of making certain changes that would only return alphabetic characters. A-Z
+I will certain changes that would only return alphabetic characters (A-Z)
 
 
     int main(int argc, char *argv[]) {
